@@ -1,0 +1,5 @@
+package com.atom.user.controller;
+
+public class UserController {
+
+}

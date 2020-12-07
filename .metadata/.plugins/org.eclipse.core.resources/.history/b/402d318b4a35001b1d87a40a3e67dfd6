@@ -1,0 +1,38 @@
+package com.atom.department.entity;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Entity
+public class Department {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private Long dId;
+	private String dName;
+	private String dAddress;
+	private String dCode;
+	
+	public Department() {
+		super();
+	}
+	
+	public Department(String dName, String dAddress, String dCode) {
+		this.dName = dName;
+		this.dAddress = dAddress;
+		this.dCode = dCode;
+	}
+
+
+	
+	
+	
+	
+	
+}

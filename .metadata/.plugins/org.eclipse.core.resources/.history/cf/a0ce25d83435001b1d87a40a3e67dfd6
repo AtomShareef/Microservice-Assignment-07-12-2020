@@ -1,0 +1,6 @@
+package snippet;
+
+public class Snippet {
+	Faceted project metadata file "/department-service1/.settings/org.eclipse.wst.common.project.facet.core.xml" could not be read.
+}
+

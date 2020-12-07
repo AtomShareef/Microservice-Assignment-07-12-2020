@@ -1,0 +1,5 @@
+package com.atom.department.controller;
+
+public class DepartmentController {
+
+}

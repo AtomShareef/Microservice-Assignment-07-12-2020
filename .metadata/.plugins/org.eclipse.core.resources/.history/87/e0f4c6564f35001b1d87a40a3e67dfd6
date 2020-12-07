@@ -1,0 +1,28 @@
+package com.atom.user.entity;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
+public class User {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private Long uId;
+	private String fName;
+	private String lName;
+	private String emailId;
+	private Long departId;
+	
+	public User(String fName, String lName, String emailId, Long departId) {
+		this.fName = fName;
+		this.lName = lName;
+		this.emailId = emailId;
+		this.departId = departId;
+	}
+	
+	
+	
+}

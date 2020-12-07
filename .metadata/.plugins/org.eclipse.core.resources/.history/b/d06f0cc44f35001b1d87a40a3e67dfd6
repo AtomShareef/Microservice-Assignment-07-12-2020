@@ -1,0 +1,5 @@
+package com.atom.user.service;
+
+public class UserService {
+
+}

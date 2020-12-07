@@ -1,0 +1,12 @@
+package com.atom.department.entity;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Department {
+
+	private Long dId;
+	private String dName;
+	private String dAddress;
+	private String dCode;
+}

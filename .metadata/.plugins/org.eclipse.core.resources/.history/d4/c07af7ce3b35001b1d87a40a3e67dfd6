@@ -1,0 +1,5 @@
+package com.atom.department.service;
+
+public class DepartmentService {
+
+}

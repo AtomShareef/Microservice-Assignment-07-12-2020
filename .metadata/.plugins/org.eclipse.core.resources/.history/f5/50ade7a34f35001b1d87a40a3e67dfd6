@@ -1,0 +1,5 @@
+package com.atom.user.repo;
+
+public interface UserRepo {
+
+}
